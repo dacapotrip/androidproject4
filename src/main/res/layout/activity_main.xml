@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Text1"
+        android:text="선택을 시작하겠습니까?"
+        tools:layout_editor_absoluteX="156dp"
+        tools:layout_editor_absolutey="357dp"
+        />
+
+    <Switch
+        android:text="시작함"
+        android:id="@+id/START"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="156dp"
+        tools:layout_editor_absolutey="357dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="좋아하는 차종은?"
+        android:id="@+id/Text2"
+        tools:layout_editor_absoluteX="156dp"
+        tools:layout_editor_absolutey="357dp"
+        />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Rground1" >
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/RdoC8"
+            android:text="CHEVROLET CORVETT C8"
+            tools:layout_editor_absoluteX="156dp"
+            tools:layout_editor_absolutey="357dp"
+            />
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/RdoCX"
+            android:text="GENESIS X CONVERTIBLE"
+            tools:layout_editor_absoluteX="156dp"
+            tools:layout_editor_absolutey="357dp"
+            />
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/RdoMUS"
+            android:text="FORD MUSTANG'DRAKHORSE'"
+            tools:layout_editor_absoluteX="156dp"
+            tools:layout_editor_absolutey="357dp"
+            />
+    </RadioGroup>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/Imgcar"
+        tools:layout_editor_absoluteX="156dp"
+        tools:layout_editor_absolutey="357dp"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        android:id="@+id/BtnOUT"
+        tools:layout_editor_absoluteX="156dp"
+        tools:layout_editor_absolutey="357dp"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        android:id="@+id/BtnDacapo"
+        tools:layout_editor_absoluteX="156dp"
+        tools:layout_editor_absolutey="357dp"
+        />
+
+</LinearLayout>
